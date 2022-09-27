@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>klaft | Registration</title>
+  <link rel="stylesheet" href="/CSS/selection.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  
+  <!-- Dropdown menu script -->
+  
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</head>
+<body>
+  <!-- Wallet conection -->
+  <div class="wallet-conection">
+    <a href="/index.html"><img src="/images/LOGO.png" alt="klaft-nft logo"></a>
+    <p class="wallet-selection">Приєднайте свій крипто-гаманець для оплати</p>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">ОБЕРІТЬ ГАМАНЕЦЬ<img src="/images/icons/arrow_forward.png"></button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#"><img src="/images/logo/Metamask_logo.png" alt="Metamask logo"></a>
+        <a href="#"><img src="/images/logo/Phantom_logo.png" alt="Phantom logo"></a>
+        <a href="#"><img src="/images/logo/Polygon_logo.png" alt="Polygon logo"></a>
+      </div>
+    </div>
+  </div>
+ 
+</body>
+</html>

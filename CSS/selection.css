@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(45deg, #8133FF 0%, #4005A2 100%);
+  width: 1920px;
+  height: 1080px;
+}
+
+.wallet-selection {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.13em;
+  color: #FFFFFF;
+}
+.wallet-conection {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 136px;
+  gap: 48px;
+  position: absolute;
+  left: calc(50% - 776px/2);
+  top: calc(50% - 551px/2 - 0.5px);
+  background: #171717;
+  box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.25);
+  border: 3px solid #F27127;
+}
+
+.dropbtn {
+  background-color: #171717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.13em;
+  color: #FFFFFF;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #171717;
+}
+
+.dropdown-content > a {
+  padding: 12px 0px;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  border-bottom: 1px solid #fff; 
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 385px;
+  padding-top: 24px;
+}
