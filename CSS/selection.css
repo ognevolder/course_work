@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 48px 136px;
+  padding: 48px 136px 285px 136px;
   gap: 48px;
   position: absolute;
   left: calc(50% - 776px/2);
@@ -68,7 +68,7 @@ body {
 }
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  border-bottom: 1px solid #fff; 
+  border-bottom: 1px solid #fff;
 }
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
@@ -77,6 +77,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  width: 385px;
+  width: 352px;
   padding-top: 24px;
 }

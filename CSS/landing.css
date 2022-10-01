@@ -3,36 +3,6 @@
   padding: 0;
 }
 
-.button {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 140%;
-  letter-spacing: 0.05em;
-  color: #FFFFFF;
-  text-decoration: none;
-  padding: 12px 24px;
-  background-color: #8133FF;
-}
-
-.semi-button {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 140%;
-  letter-spacing: 0.05em;
-  color: #FFFFFF;
-  text-decoration: none;
-  padding: 12px 24px;
-  box-sizing: border-box;
-  outline-style: solid;
-  outline-width: 5px;
-  outline-offset: -5px;
-  outline-color: #8133FF;
-}
-
 h1 {
   font-family: 'Ubuntu';
   font-style: normal;
@@ -57,11 +27,8 @@ h2 {
 
 body {
   background-image: url(/images/AI/Background/Landing_img.png);
-  background-size: fixed;
+  background-size: cover;
   background-repeat: no-repeat;
-  position: absolute;
-  width: 1920px;
-  height: 1080px;
 }
 
 .landing-box {
@@ -69,30 +36,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 48px;
-  position: absolute;
-  width: 847px;
-  left: calc(50% - 847px/2 - 0.5px);
-  top: calc(50% - 466px/2);
-}
-
-.landing-text {
-  gap: 12px;
-}
-
-.registration > ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-}
-
-.partners {
-  position: absolute;
-  width: 551px;
-  height: 30px;
-  left: 684px;
-  top: 970px;
+  gap: 2.5em;
 }
 
 .partners > ul {
@@ -102,4 +46,9 @@ body {
   align-items: center;
   gap: 48px;
   list-style: none;
+  padding-top: 5em;
+}
+
+.registration > a {
+  box-sizing: border-box;
 }
